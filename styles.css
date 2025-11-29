@@ -3,7 +3,7 @@
     --silva-color: #8F9371;
     --terra-color: #cc7f52;
     --aqua-color: #769299;
-    --block-color: #394D44;
+    --block-color: #394D44A8;
 }
 
 header {
@@ -13,4 +13,11 @@ header {
     width: 100vw;
     margin: 0px;
     padding: 0px;
+}
+
+.overlayBox {
+    height: fit-content;
+    width: 373px;
+    border-radius: 162px;
+
 }
