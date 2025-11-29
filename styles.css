@@ -5,3 +5,12 @@
     --aqua-color: #769299;
     --block-color: #394D44;
 }
+
+header {
+    position: sticky;
+    background-color: var(--block-color);
+    height: 68px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
