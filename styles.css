@@ -115,7 +115,7 @@ p {
     margin-top: 20px;
     width: 100%;
     height: 664px;
-    border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
+    border-radius: 50vw 50vw 0px 0px;
     background: lightgray url(img/div/index_div_background.jpg) center / 1024px 686px no-repeat;
 
     button {
@@ -136,7 +136,7 @@ p {
     position: relative;
     margin-top: 20px;
     width: 100%;
-    border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
+    border-radius: 50vw 50vw 0px 0px;
     overflow: hidden;
 }
 
@@ -154,7 +154,7 @@ p {
     width: 90%;
     margin: 20px 5% 85px;
     padding-top: 72px;
-    border-radius: calc(100% / 2) calc(100% / 2) 0px 0px;
+    border-radius: 50% 50% 0px 0px;
     background-color: var(--white);
 
     h1 {
