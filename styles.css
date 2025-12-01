@@ -29,17 +29,14 @@ main {
 }
 
 button {
-    position: absolute;
     width: 146px;
     height: 50px;
     border-radius: 8px;
     background-color: var(--terra-color);
-    left: calc(50vw - 73px);
-    bottom: 100px;
     border: none;
     color: var(--white);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -84,6 +81,12 @@ p {
     width: 100%;
     height: 664px;
     background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
+
+    button {
+        position: absolute;
+        left: calc(50vw - 73px);
+        bottom: 100px;
+    }
 }
 
 .hero__textbox {
@@ -106,6 +109,12 @@ p {
     height: 664px;
     border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
     background: lightgray url(img/div/index_div_background.jpg) center / 1024px 686px no-repeat;
+
+    button {
+        position: absolute;
+        left: calc(50vw - 73px);
+        bottom: 100px;
+    }
 }
 
 .textBox__text {
