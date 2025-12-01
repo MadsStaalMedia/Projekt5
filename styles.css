@@ -184,6 +184,23 @@ p {
     }
 }
 
+.facilityButton {
+    width: 312px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--terra-color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: calc(50% - 156px);
+
+}
+
 .tentDiv#silva {
     background-color: var(--silva-color);
 }
