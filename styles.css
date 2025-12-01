@@ -1,5 +1,6 @@
 :root{
     --background-color: #FFF8E7;
+    --white: #ffffff;
     --silva-color: #8F9371;
     --terra-color: #cc7f52;
     --aqua-color: #769299;
@@ -54,4 +55,11 @@ main {
     background-color: var(--terra-color);
     left: calc(50vw - 73px);
     bottom: 100px;
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
