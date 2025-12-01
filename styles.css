@@ -27,6 +27,7 @@ main {
 }
 
 .hero {
+    position: relative;
     width: 100%;
     height: 664px;
     background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
@@ -46,5 +47,11 @@ main {
 }
 
 .hero__button {
-    
+    position: absolute;
+    width: 146px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--terra-color);
+    left: calc(50vw - 73px);
+    bottom: 100px;
 }
