@@ -3,21 +3,31 @@
     --silva-color: #8F9371;
     --terra-color: #cc7f52;
     --aqua-color: #769299;
+    --caelum-color: #B47278;
     --block-color: #394D44A8;
+    --header-color: #394D44;
 }
 
 header {
     position: sticky;
-    background-color: var(--block-color);
+    background-color: var(--header-color);
     height: 68px;
     width: 100vw;
     margin: 0px;
     padding: 0px;
 }
 
+main {
+    background-color: var(--background-color);
+}
+
 .overlayBox {
+    box-sizing: border-box;
     height: fit-content;
+    min-height: 60px;
     width: 373px;
-    border-radius: 162px;
+    background-color: var(--block-color);
+    border-radius: 0px 162px 162px 0px;
+    padding: 30px 58px 20px 17px;
 
 }
