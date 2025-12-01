@@ -1,12 +1,13 @@
 :root{
     --background-color: #FFF8E7;
+    --header-color: #394D44;
+    --block-color: #394D44A8;
+    --h2-color: #5F8299;
     --white: #ffffff;
     --silva-color: #8F9371;
     --terra-color: #cc7f52;
     --aqua-color: #769299;
     --caelum-color: #B47278;
-    --block-color: #394D44A8;
-    --header-color: #394D44;
 }
 
 body {
@@ -31,9 +32,24 @@ h1 {
     font-family: Didot, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
     font-weight: 400;
-    line-height: normal;
     color: var(--white);
     text-align: left;
+    margin-left: 5vw;
+}
+
+h2 {
+    font-family: Aeonik, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--h2-color);
+    text-align: center;
+}
+
+h3 {
+    font-family: Aeonik, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
     margin-left: 5vw;
 }
 
