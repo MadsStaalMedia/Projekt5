@@ -130,3 +130,26 @@ p {
     margin-left: 74px;
     margin-right: 74px;
 }
+
+.tentBox {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 664px;
+    border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
+    overflow: hidden;
+}
+
+.tentBox__img {
+    height: 66vw;
+    width: 100%;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.tentBox#silva {
+    background-color: var(--silva-color);
+}
