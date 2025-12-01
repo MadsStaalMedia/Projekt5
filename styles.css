@@ -169,6 +169,10 @@ p {
     'text text text'
     '1fr 1fr 1fr'
     '1fr 1fr 1fr';
+
+    p {
+        grid-area: text;
+    }
 }
 
 .tentDiv#silva {
