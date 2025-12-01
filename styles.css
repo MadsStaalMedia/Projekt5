@@ -28,9 +28,9 @@ main {
 
 .hero {
     width: 100%;
-    height: 683px;
+    height: 664px;
     background-image: url(img/hero/hero_index.jpg);
-    background-position: center;
+    
     background-repeat: no-repeat;
 }
 
