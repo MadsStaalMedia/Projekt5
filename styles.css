@@ -4,6 +4,7 @@
     --block-color: #394D44A8;
     --h2-color: #5F8299;
     --white: #ffffff;
+    --black: #000000;
     --silva-color: #8F9371;
     --terra-color: #cc7f52;
     --aqua-color: #769299;
@@ -131,16 +132,15 @@ p {
     margin-right: 74px;
 }
 
-.tentBox {
+.tentDiv {
     position: relative;
     margin-top: 20px;
     width: 100%;
-    height: 664px;
     border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
     overflow: hidden;
 }
 
-.tentBox__img {
+.tentDiv__img {
     height: 66vw;
     width: 100%;
 
@@ -150,6 +150,19 @@ p {
     }
 }
 
-.tentBox#silva {
+.tentDiv__info {
+    width: 90%;
+    margin: 20px 5% 85px;
+    padding-top: 72px;
+    border-radius: calc(100% / 2) calc(100% / 2) 0px 0px;
+    background-color: var(--white);
+
+    h1 {
+        color: var(--black);
+        text-align: center;
+    }
+}
+
+.tentDiv#silva {
     background-color: var(--silva-color);
 }
