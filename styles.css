@@ -214,3 +214,11 @@ p {
 .tentDiv#silva {
     background-color: var(--silva-color);
 }
+
+.tentDiv#aqua {
+    background-color: var(--aqua-color);
+}
+
+.tentDiv#terra {
+    background-color: var(--terra-color);
+}
