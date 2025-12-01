@@ -29,20 +29,6 @@ main {
     margin: 0;
 }
 
-button {
-    width: 146px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: var(--terra-color);
-    border: none;
-    color: var(--white);
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
 h1 {
     font-family: Didot, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
@@ -75,6 +61,20 @@ p {
     font-size: 1rem;
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+.book {
+    width: 146px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--terra-color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .hero {
