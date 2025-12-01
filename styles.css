@@ -98,3 +98,11 @@ p {
     font-weight: 700;
     line-height: normal;
 }
+
+.tekstBox {
+    margin-top: 20px;
+    width: 100%;
+    height: 664px;
+    border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
+    background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
+}
