@@ -28,6 +28,23 @@ main {
     margin: 0;
 }
 
+button {
+    position: absolute;
+    width: 146px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--terra-color);
+    left: calc(50vw - 73px);
+    bottom: 100px;
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 h1 {
     font-family: Didot, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
@@ -82,27 +99,18 @@ p {
     top: 20px;
 }
 
-.hero__button {
-    position: absolute;
-    width: 146px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: var(--terra-color);
-    left: calc(50vw - 73px);
-    bottom: 100px;
-    border: none;
-    color: var(--white);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.tekstBox {
+.textBox {
+    position: relative;
     margin-top: 20px;
     width: 100%;
     height: 664px;
     border-radius: calc(100vw / 2) calc(100vw / 2) 0px 0px;
-    background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
+    background: lightgray url(img/div/index_div_background.jpg) center / 1024px 686px no-repeat;
+}
+
+.textBox__text {
+    position: absolute;
+    top: 58px;
+    margin-left: 74px;
+    margin-right: 74px;
 }
