@@ -80,13 +80,20 @@ p {
     position: relative;
     width: 100%;
     height: 664px;
-    background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
 
     button {
         position: absolute;
         left: calc(50vw - 73px);
         bottom: 100px;
     }
+}
+
+.hero#index {
+    background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
+}
+
+.hero#ophold {
+    background: lightgray url(img/hero/hero_ophold.jpg) center / 1024px 686px no-repeat;
 }
 
 .hero__textbox {
