@@ -53,6 +53,12 @@ h3 {
     margin-left: 5vw;
 }
 
+p {
+    font-family: Aeonik, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-left: 5vw;
+}
+
 .hero {
     position: relative;
     width: 100%;
