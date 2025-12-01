@@ -155,6 +155,7 @@ p {
     margin: 20px 5% 85px;
     padding-top: 72px;
     border-radius: 50% 50% 0px 0px;
+    padding-bottom: 20px;
     background-color: var(--white);
 
     h1 {
@@ -169,7 +170,7 @@ p {
     'text text text'
     '1fr 1fr 1fr'
     '1fr 1fr 1fr';
-    padding: 0 5%;
+    padding: 0 5% 55px;
 
     p {
         grid-area: text;
