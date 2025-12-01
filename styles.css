@@ -29,9 +29,7 @@ main {
 .hero {
     width: 100%;
     height: 664px;
-    background-image: url(img/hero/hero_index.jpg);
-    
-    background-repeat: no-repeat;
+    background: lightgray url(img/hero/hero_index.jpg) center / 1024px 686px no-repeat;
 }
 
 .hero__textbox {
@@ -45,4 +43,8 @@ main {
     border-radius: 0px 162px 162px 0px;
     padding: 30px 58px 20px 0px;
     top: 20px;
+}
+
+.hero__button {
+    
 }
