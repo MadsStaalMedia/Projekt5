@@ -240,22 +240,27 @@ p {
     background-color: var(--background-color);
 }
 
-.contactDiv_right {
+.contactDiv {
+    display: flex;
+    flex-direction: row;
     width: 95%;
     min-height: 60px;
     min-width: 373px;
     background-color: var(--block-color);
+}
+
+.contactDiv#right {
     border-radius: 162px 0px 0px 162px;
-    padding: 30px 58px 20px 0px;
+    padding: 30px 0px 20px 58px;
     margin-left: 5%;
 }
 
-.contactDiv_left {
-    width: 95%;
-    min-height: 60px;
-    min-width: 373px;
-    background-color: var(--block-color);
+.contactDiv#left {
     border-radius: 0px 162px 162px 0px;
     padding: 30px 58px 20px 0px;
     margin-right: 5%;
+}
+
+.contactDiv__img {
+    border-radius: 100%;
 }
