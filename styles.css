@@ -23,6 +23,17 @@ header {
     width: 100vw;
     margin: 0px;
     padding: 0px;
+
+    menu {
+        position: absolute;
+        right: 5%;
+    }
+
+    .logo {
+        left: 5%;
+        position: absolute;
+    }
+
 }
 
 main {
