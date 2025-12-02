@@ -230,3 +230,12 @@ p {
 .tentDiv#faciliteter {
     background-color: var(--silva-color);
 }
+
+.facilityList {
+    width: 90%;
+    margin: 20px 5% 85px;
+    padding-top: 72px;
+    border-radius: 50vw 50vw 0px 0px;
+    padding-bottom: 20px;
+    background-color: var(--background-color);
+}
