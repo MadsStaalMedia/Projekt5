@@ -122,6 +122,10 @@ p {
     background: lightgray url(img/hero/hero_oplevelser.webp) center / 1024px 686px no-repeat;
 }
 
+.hero#eventsal {
+    background: lightgray url(img/hero/hero_eventsal.webp) center / 1024px 686px no-repeat;
+}
+
 .hero__textbox {
     position: absolute;
     box-sizing: border-box;
