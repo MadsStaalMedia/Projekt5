@@ -156,6 +156,10 @@ p {
         width: 100%;
         height: auto;
     }
+
+    img#tourism {
+        width: 120%;
+    }
 }
 
 .tentDiv__info {
