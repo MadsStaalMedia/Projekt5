@@ -214,6 +214,10 @@ p {
     background-color: var(--terra-color);
 }
 
+.tentDiv#caelum {
+    background-color: var(--caelum-color);
+}
+
 .facilityButton {
     width: 312px;
     height: 50px;
