@@ -158,16 +158,6 @@ p {
     }
 }
 
-.tentDiv__img_tourism {
-    height: 66vw;
-    width: 100%;
-
-    img {
-        height: 300px;
-        width: auto;
-    }
-}
-
 .tentDiv__info {
     width: 90%;
     margin: 20px 5% 85px;
@@ -210,13 +200,6 @@ p {
         font-size: 1rem;
         margin-bottom: 20px;
     }
-}
-
-.tentDiv__label {
-    width: 80%;
-    height: 76px;
-    border-radius: 0px 38px 38px 0px;
-    background-color: var(--aqua-color);
 }
 
 .tentDiv#silva {
