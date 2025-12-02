@@ -9,6 +9,7 @@
     --terra-color: #cc7f52;
     --aqua-color: #769299;
     --caelum-color: #B47278;
+    --caulum-block-color: #B47278A8;
 }
 
 body {
@@ -113,6 +114,19 @@ p {
     min-height: 60px;
     min-width: 373px;
     background-color: var(--block-color);
+    border-radius: 0px 162px 162px 0px;
+    padding: 30px 58px 20px 0px;
+    top: 24px;
+}
+
+.hero__textbox_caelum {
+    position: absolute;
+    box-sizing: border-box;
+    height: fit-content;
+    width: 95%;
+    min-height: 60px;
+    min-width: 373px;
+    background-color: var(--caulum-block-color);
     border-radius: 0px 162px 162px 0px;
     padding: 30px 58px 20px 0px;
     top: 24px;
