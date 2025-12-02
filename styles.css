@@ -115,7 +115,7 @@ p {
     background-color: var(--block-color);
     border-radius: 0px 162px 162px 0px;
     padding: 30px 58px 20px 0px;
-    top: 20px;
+    top: 24px;
 }
 
 .textBox {
@@ -142,7 +142,7 @@ p {
 
 .tentDiv {
     position: relative;
-    margin-top: 20px;
+    margin-top: 24px;
     width: 100%;
     border-radius: 50vw 50vw 0px 0px;
     overflow: hidden;
@@ -163,7 +163,7 @@ p {
     margin: 20px 5% 85px;
     padding-top: 72px;
     border-radius: 50vw 50vw 0px 0px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     background-color: var(--white);
 
     hr {
@@ -241,12 +241,14 @@ p {
 }
 
 .contactDiv {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     width: 95%;
     min-height: 60px;
     min-width: 373px;
     background-color: var(--header-color);
+    margin-bottom: 24px;
 }
 
 .contactDiv#right {
@@ -266,6 +268,12 @@ p {
     aspect-ratio: 1 / 1;
     border-radius: 100%;
     overflow: hidden;
+
+    img {
+        height: 100%;
+        max-height: 200px;
+        width: auto;
+    }
 }
 
 .contactDiv__info {
