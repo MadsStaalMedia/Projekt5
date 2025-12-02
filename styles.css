@@ -231,10 +231,6 @@ p {
     background-color: var(--terra-color);
 }
 
-.tentDiv#faciliteter {
-    background-color: var(--silva-color);
-}
-
 .facilityList {
     width: 90%;
     margin: 20px 5% 85px;
