@@ -78,6 +78,22 @@ p {
     line-height: normal;
 }
 
+.book_caelum {
+    width: 146px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--header-color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: calc(50% - 73px);
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -203,7 +219,7 @@ p {
     '1fr 1fr'
     '1fr 1fr'
     '1fr 1fr';
-    padding: 0 5% 55px;
+    padding: 0 5% 24px;
     justify-content: space-around;
 
     p {
