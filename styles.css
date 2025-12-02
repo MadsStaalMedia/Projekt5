@@ -202,6 +202,23 @@ p {
     }
 }
 
+.tentDiv__label {
+    width: 80%;
+    height: 76px;
+}
+
+.tentDiv#silva {
+    background-color: var(--silva-color);
+}
+
+.tentDiv#aqua {
+    background-color: var(--aqua-color);
+}
+
+.tentDiv#terra {
+    background-color: var(--terra-color);
+}
+
 .facilityButton {
     width: 312px;
     height: 50px;
@@ -217,18 +234,6 @@ p {
     position: relative;
     left: calc(50% - 156px);
 
-}
-
-.tentDiv#silva {
-    background-color: var(--silva-color);
-}
-
-.tentDiv#aqua {
-    background-color: var(--aqua-color);
-}
-
-.tentDiv#terra {
-    background-color: var(--terra-color);
 }
 
 .facilityList {
