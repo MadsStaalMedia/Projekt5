@@ -246,7 +246,7 @@ p {
     width: 95%;
     min-height: 60px;
     min-width: 373px;
-    background-color: var(--block-color);
+    background-color: var(--header-color);
 }
 
 .contactDiv#right {
@@ -262,5 +262,12 @@ p {
 }
 
 .contactDiv__img {
+    height: 100%;
+    aspect-ratio: 1 / 1;
     border-radius: 100%;
+    overflow: hidden;
+}
+
+.contactDiv__info {
+
 }
