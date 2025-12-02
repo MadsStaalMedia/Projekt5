@@ -156,10 +156,15 @@ p {
         width: 100%;
         height: auto;
     }
+}
 
-    img#tourism {
+.tentDiv__img_tourism {
+    height: 66vw;
+    width: 100%;
+
+    img {
+        height: 300px;
         width: auto;
-        height: ;
     }
 }
 
