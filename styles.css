@@ -226,3 +226,7 @@ p {
 .tentDiv#terra {
     background-color: var(--terra-color);
 }
+
+.tentDiv#faciliteter {
+    background-color: var(--silva-color);
+}
