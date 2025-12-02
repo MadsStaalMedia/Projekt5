@@ -199,8 +199,10 @@ p {
     display: grid;
     grid-template-areas: 
     'text text text'
-    '1fr 1fr 1fr'
-    '1fr 1fr 1fr';
+    '1fr 1fr'
+    '1fr 1fr'
+    '1fr 1fr'
+    '1fr 1fr';
     padding: 0 5% 55px;
 
     p {
