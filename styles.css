@@ -97,6 +97,10 @@ p {
     background: lightgray url(img/hero/hero_ophold.jpg) center / 1024px 686px no-repeat;
 }
 
+.hero#faciliteter {
+    background: lightgray url(img/hero/hero_faciliteter.jpg) center / 1024px 686px no-repeat;
+}
+
 .hero__textbox {
     position: absolute;
     box-sizing: border-box;
