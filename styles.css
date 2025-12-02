@@ -250,6 +250,10 @@ p {
     min-width: 373px;
     background-color: var(--header-color);
     margin-bottom: 24px;
+
+    a {
+        color: var(--white);
+    }
 }
 
 .contactDiv#right {
@@ -281,5 +285,6 @@ p {
 .contactDiv__info {
     p {
         color: var(--white);
+        line-height: 200%;
     }
 }
