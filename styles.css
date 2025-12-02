@@ -239,3 +239,23 @@ p {
     padding-bottom: 20px;
     background-color: var(--background-color);
 }
+
+.contactDiv_right {
+    width: 95%;
+    min-height: 60px;
+    min-width: 373px;
+    background-color: var(--block-color);
+    border-radius: 162px 0px 0px 162px;
+    padding: 30px 58px 20px 0px;
+    margin-left: 5%;
+}
+
+.contactDiv_left {
+    width: 95%;
+    min-height: 60px;
+    min-width: 373px;
+    background-color: var(--block-color);
+    border-radius: 0px 162px 162px 0px;
+    padding: 30px 58px 20px 0px;
+    margin-right: 5%;
+}
