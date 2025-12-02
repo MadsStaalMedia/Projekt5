@@ -38,6 +38,14 @@ header {
 
 }
 
+footer {
+    background-color: var(--silva-color);
+
+    button {
+        margin-left: 5%;
+    }
+}
+
 main {
     background-color: var(--background-color);
     margin: 0;
