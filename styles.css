@@ -198,12 +198,13 @@ p {
 .tentDiv__facilities {
     display: grid;
     grid-template-areas: 
-    'text text text'
+    'text text'
     '1fr 1fr'
     '1fr 1fr'
     '1fr 1fr'
     '1fr 1fr';
     padding: 0 5% 55px;
+    justify-content: space-around;
 
     p {
         grid-area: text;
