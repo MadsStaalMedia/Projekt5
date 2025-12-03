@@ -18,7 +18,9 @@ for (i = 0; i < tentScroll.length; i++) {
 
     scrollArea.innerHTML += tentIcons[i].innerHTML;
 
-    if (language == "en-US" || "en") {
+    console.log(language)
+
+    if (language == "en") {
         scrollArea.innerHTML += '<p><a href='+tentScroll[i].href+'>'+tentScroll[i].entitle+'</a></p>'
     } else {
         scrollArea.innerHTML += '<p><a href='+tentScroll[i].href+'>'+tentScroll[i].datitle+'</a></p>'
