@@ -12,7 +12,7 @@ const tentScroll = [
 
 for (i = 0; i < tentScroll.length; i++) {
 
-    tentButtons.innerHTML += '<div id="'+tentScroll[i].id+'">';
+    tentButtons.innerHTML += '<div class="tentScroll" id="'+tentScroll[i].id+'">';
 
     let scrollArea = document.getElementById(tentScroll[i].id);
 
