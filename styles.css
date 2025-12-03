@@ -136,7 +136,23 @@ p {
     margin-right: 5vw;
 }
 
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
 
+.dropdown__button {
+    width: 100%;
+    height: 68px;
+    background-color: var(--caelum-color);
+    font-family: Aeonik, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.dropdown__button:hover {
+    background-color: var(--terra-color);
+}
 
 .book {
     width: 146px;
