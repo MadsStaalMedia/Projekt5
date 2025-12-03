@@ -327,6 +327,11 @@ p {
     background-color: var(--caelum-color);
 }
 
+.tentIcon {
+    position: absolute;
+    left: calc(50% - 46px);
+}
+
 .facilityButton {
     width: 312px;
     height: 50px;
