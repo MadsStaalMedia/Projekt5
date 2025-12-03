@@ -4,4 +4,4 @@ for (i = 0; i < facilityButton.length ; i++) {
     facilityButton[i].addEventListener("click", function(){
         window.location = "faciliteter.html";
     });
-}
+};
