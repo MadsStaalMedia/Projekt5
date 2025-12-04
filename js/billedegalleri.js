@@ -4,6 +4,7 @@ let prikviser = document.getElementById("carousel_prikker");
 let billedeviser = document.getElementById("carousel_billede");
 
 for (let i = 0; i < billeder.length; i++) {
+     prikviser.innerHTML += "<div class='carousel_prik'></div>";
     billedeviser.innerHTML += "<img class='carousel_billede fade' src="+billeder[i]+">";
 }
 
