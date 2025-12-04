@@ -38,9 +38,8 @@ function gaTilbage() {
     } else {
         billedenummer = slides.length - 1; //hvis vi er ved første - gå til sidste 
 }
-
 skiftbillede(billedenummer);
-
+}
 
 
 
