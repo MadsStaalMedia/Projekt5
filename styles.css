@@ -45,7 +45,7 @@ header {
   height: 0%;
   width: 100%;
   position: fixed;
-  z-index: 9999;
+  z-index: 999;
   top: 0;
   left: 0;
   background-color: var(--header-color);
@@ -53,12 +53,19 @@ header {
   transition: height 0.5s ease;
 }
 
-.overlay-content a {
+.overlay-content h3 a {
   display: block;
-  font-size: 36px;
-  color: #fff;
+  color: var(--white);
   padding: 8px;
   text-decoration: none;
+
+}
+
+.overlay-content h3 a:hover {
+  display: block;
+  color: var(--terra-color);
+  text-decoration: underline;
+  padding: 8px;
 }
 
 .closebtn {

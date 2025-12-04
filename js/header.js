@@ -30,14 +30,14 @@ const menuPunkter = [
   { href: "oplevelser.html", title: "Oplevelser" },
   { href: "eventsal.html", title: "Eventsal" },
   { href: "kontakt.html", title: "Kontakt" },
-  { href: "book.html", title: "Book" }
+  { href: "#", title: "Book" }
 ];
 
 // Loop til at vise menu-punkterne (DOM-manipulation)
 for (let i = 0; i < menuPunkter.length; i++) {
   const punkt = menuPunkter[i];
   menuContainer.innerHTML +=
-    "<a href='" + punkt.href + "'>" + punkt.title + "</a>";
+    "<h3><a href='" + punkt.href + "'>" + punkt.title + "</a></h3>";
 }
 
 // Funktion med if/else (kontrolstruktur)
