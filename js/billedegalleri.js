@@ -1,4 +1,4 @@
-const billeder = ["billeder/imgaqua/aqua_1.webp","billeder/imgaqua/aqua_2.webp","billeder/imgaqua/aqua_3.webp"];
+const billeder = ["img/aqua/aqua_1.webp","img/aqua/aqua_2.webp","img/aqua/aqua_3.webp"];
 
 let prikviser = document.getElementById("carousel_prikker");
 let billedeviser = document.getElementById("carousel_billede");
