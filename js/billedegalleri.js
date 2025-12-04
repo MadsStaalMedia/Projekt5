@@ -12,10 +12,39 @@ const slides = document.getElementsByClassName("carousel_billede");
 const prikker = document.getElementsByClassName("carousel_prik");
 
 slides[0].style.display = "block";
+//Start: vist første billede og gør første prik aktiv
 
 let billedenummer = 0;
 
-function skiftbillede(x) {
+for(let i= 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+slides[0].style.display = "block";
+prikker[0]. classList.add("active");
+
+// Pile 
+function gaFrem() {
+    if (billedenummer < slides.length - 1) {
+        billedenummer++;   //gå et frem 
+    } else {
+        billedenummer = 0; // hvis vi er ved sidste - start forfra
+    }
+    skiftbillede(billedenummer);
+}
+
+function gaTilbage() {
+    if (billedenummer > 0) {
+        billedenummer--;     //gå et tilbage 
+    } else {
+        billedenummer = slides.length - 1; //hvis vi er ved første - gå til sidste 
+}
+
+skiftbillede(billedenummer);
+
+
+
+
+//Gammel kode function skiftbillede(x) {
 
     for (i = 0; i < prikker.length; i++) {
         prikker[i].classList.remove("active");
