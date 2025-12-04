@@ -1,10 +1,9 @@
 const header = document.getElementById("header");
 
 header.innerHTML = `
+<div class="top__bar">
     <div class="header__button" id="burgerKnap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
-            <path d="M3.5 7V5.5H20.5V7H3.5ZM3.5 18.5V17H20.5V18.5H3.5ZM3.5 12.75V11.25H20.5V12.75H3.5Z" fill="white"/>
-        </svg>
+        <span class="burger__symbol">☰</span>
     </div>
 
     <div id="myNav" class="overlay">
@@ -12,9 +11,9 @@ header.innerHTML = `
         <div id="menuContainer" class="overlay-content"></div>
     </div>
 
-    <div class="header__logo">TEST</div>
+    <div class="header__logo">LOGO</div>
+</div>
 `;
-
 
 // Variabler og typer
 const overlay = document.getElementById("myNav");
@@ -36,9 +35,17 @@ const menuPunkter = [
 // Loop til at vise menu-punkterne (DOM-manipulation)
 for (let i = 0; i < menuPunkter.length; i++) {
   const punkt = menuPunkter[i];
+
+// menu aktivering 
+  let aktivKlasse = "";
+  if (window.location.pathname.indexOf(punkt.href) !== -1) {
+    aktivKlasse = " dropdown__link--valgt";
+  }
+  
   menuContainer.innerHTML +=
-    "<h3><a href='" + punkt.href + "'>" + punkt.title + "</a></h3>";
+    "<a href='" + punkt.href + "' class='dropdown__link" + aktivKlasse + "'>" + punkt.title + "</a>";
 }
+
 
 // Funktion med if/else (kontrolstruktur)
 function visMenu(vis) {
