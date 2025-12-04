@@ -1,3 +1,6 @@
+// overlay menu fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2
+// inspiration til javascript fra tidelligere projekt i dropdown https://github.com/MadsStaalMedia/Projekt4
+// tilpasset med hjælp fra chatGPT se bilag: "Mikkel hjælp chatGPT overlay menu"
 const header = document.getElementById("header");
 
 header.innerHTML = `
@@ -15,6 +18,7 @@ header.innerHTML = `
 </div>
 `;
 
+//inspir
 // Variabler og typer
 const overlay = document.getElementById("myNav");
 const menuContainer = document.getElementById("menuContainer");
