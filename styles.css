@@ -24,6 +24,7 @@ header {
     width: 100%;
     margin: 0;
     padding: 0;
+    z-index: 10;
 
 
 .header__button {
@@ -48,7 +49,7 @@ header {
   top: 0;
   left: 0;
   background-color: var(--header-color);
-  overflow-y: hidden;
+  overflow-y: auto;
   transition: height 0.5s ease;
 }
 

@@ -1,4 +1,21 @@
 const header = document.getElementById("header");
+
+header.innerHTML = `
+    <div class="header__button" id="burgerKnap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+            <path d="M3.5 7V5.5H20.5V7H3.5ZM3.5 18.5V17H20.5V18.5H3.5ZM3.5 12.75V11.25H20.5V12.75H3.5Z" fill="white"/>
+        </svg>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <span class="closebtn" id="krydsKnap">&times;</span>
+        <div id="menuContainer" class="overlay-content"></div>
+    </div>
+
+    <div class="header__logo">TEST</div>
+`;
+
+
 // Variabler og typer
 const overlay = document.getElementById("myNav");
 const menuContainer = document.getElementById("menuContainer");
