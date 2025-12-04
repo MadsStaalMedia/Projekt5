@@ -20,7 +20,7 @@ for(let i= 0; i < slides.length; i++) {
     slides[i].style.display = "none";
 }
 slides[0].style.display = "block";
-prikker[0]. classList.add("active");
+prikker[0]. classList.toggle("active");
 
 // Pile 
 function gaFrem() {
@@ -43,16 +43,5 @@ skiftbillede(billedenummer);
 
 
 
-//Gammel kode function skiftbillede(x) {
 
-    for (i = 0; i < prikker.length; i++) {
-        prikker[i].classList.remove("active");
-        slides[i].style.display = "none";
-    }
 
-    billedenummer = x;
-
-    prikker[x].classList.toggle("active");
-
-    slides[x].style.display = "block";
-}
