@@ -37,12 +37,14 @@ header {
     left: 5%;
     position: absolute;
 }
+
+}
 /* overlay til burgermenu starter */
 .overlay {
   height: 0%;
   width: 100%;
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   top: 0;
   left: 0;
   background-color: var(--header-color);
@@ -66,7 +68,7 @@ header {
   cursor: pointer;
 }
 /* overlay til burgermenu slutter  */
-}
+
 footer {
     box-sizing: border-box;
     background-color: var(--silva-color);
