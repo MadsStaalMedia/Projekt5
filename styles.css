@@ -22,23 +22,51 @@ header {
     background-color: var(--header-color);
     height: 68px;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 
-    .header__button {
-        margin-top: 22px;
-        position: absolute;
-        right: 5%;
-    }
 
-    .header__logo {
-        margin-top: 22px;
-        left: 5%;
-        position: absolute;
-    }
-
+.header__button {
+    margin-top: 22px;
+    position: absolute;
+    right: 5%;
 }
 
+.header__logo {
+    margin-top: 22px;
+    left: 5%;
+    position: absolute;
+}
+/* overlay til burgermenu starter */
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: var(--header-color);
+  overflow-y: hidden;
+  transition: height 0.5s ease;
+}
+
+.overlay-content a {
+  display: block;
+  font-size: 36px;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 50px;
+  cursor: pointer;
+}
+/* overlay til burgermenu slutter  */
+}
 footer {
     box-sizing: border-box;
     background-color: var(--silva-color);
