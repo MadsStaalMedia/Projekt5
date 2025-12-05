@@ -472,7 +472,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #5F8299;
+    background-color: var(--aqua-color);
     color: white;
     cursor: pointer;
     padding: 30px;
@@ -508,7 +508,7 @@ p {
 }
 
 .expanded, .accordion__button:hover {
-  background-color: rgb(40, 49, 102);
+  background-color: var(--h2-color);
   cursor: pointer;
 }
 
@@ -522,4 +522,8 @@ p {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
+
+  a {
+    color: var(--terra-color);
+  }
 }
