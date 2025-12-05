@@ -443,9 +443,11 @@ p {
 }
 
 #carousel_billede {
+    
     width: 100%;
     align-self: center;
     height: auto;
+    max-height: 660px;
     overflow: hidden;
     position: relative;
 }
