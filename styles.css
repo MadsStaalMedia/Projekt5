@@ -485,19 +485,18 @@ p {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.4);
       color: white;
       border: none;
       font-size: 30px;
-      padding: 8px 14px;
+      padding: 8px 0px;
       cursor: pointer;
       z-index: 10;
     }
 
-    .pil#venstre {
-      left: 10px;
+    .pil#venstre_pil {
+      left: 5px;
     }
 
-    .pil#hojre {
-      right: 10px;
+    .pil#hojre_pil {
+      right: 5px;
     }
