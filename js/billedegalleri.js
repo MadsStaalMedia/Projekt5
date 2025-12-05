@@ -25,7 +25,7 @@ prikker[0]. classList.toggle("active");
 function gaFrem() {
     slides[billedenummer].style.display = "none";
     prikker[billedenummer].classList.toggle("active");
-    if (billedenummer < slides.length) {
+    if (billedenummer < slides.length -1) {
         billedenummer++;   //gå et frem 
     } else {
         billedenummer = 0; // hvis vi er ved sidste - start forfra
