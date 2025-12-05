@@ -447,6 +447,7 @@ p {
     align-self: center;
     height: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .carousel_billede {
@@ -479,3 +480,24 @@ p {
 .active, .carousel_prik:hover {
     background-color:#5b5b5b;
 }
+
+ .pil {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      border: none;
+      font-size: 30px;
+      padding: 8px 14px;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .pil#venstre {
+      left: 10px;
+    }
+
+    .pil#hojre {
+      right: 10px;
+    }
