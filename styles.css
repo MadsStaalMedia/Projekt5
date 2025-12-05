@@ -441,8 +441,23 @@ p {
         line-height: 200%;
     }
 }
+
+#carousel_billede {
+    width: 100%;
+    align-self: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.carousel_billede {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
 #carousel_prikker {
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
     display: flex;
     box-sizing: border-box;
     width: 100%;
