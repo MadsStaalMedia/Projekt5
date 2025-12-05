@@ -475,7 +475,7 @@ p {
     color: white;
     cursor: pointer;
     padding: 30px;
-    width: 100%;
+    width: 90vw;
     border-style: none;
     outline: none;
     transition: 0.5s;
@@ -494,7 +494,7 @@ p {
 }
 
 .accordion__section--image {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
