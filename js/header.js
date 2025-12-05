@@ -18,7 +18,6 @@ header.innerHTML = `
 </div>
 `;
 
-//inspir
 // Variabler og typer
 const overlay = document.getElementById("myNav");
 const menuContainer = document.getElementById("menuContainer");
