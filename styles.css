@@ -117,7 +117,8 @@ h2 {
     font-size: 2rem;
     font-weight: 700;
     color: var(--h2-color);
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
 }
 
 h3 {
