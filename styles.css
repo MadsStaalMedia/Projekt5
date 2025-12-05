@@ -469,8 +469,8 @@ p {
 .carousel_prik {
     cursor: pointer;
     background-color: #a9a9a9;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     border-radius: 50%;
     margin: 0 2px;
     transition: background-color 0.6s ease;
