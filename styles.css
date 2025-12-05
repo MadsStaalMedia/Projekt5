@@ -453,3 +453,71 @@ p {
         line-height: 200%;
     }
 }
+
+
+/*Accordion (Oplevelser & Faciliteter) - Svend*/
+#accordion {
+    margin: 20px 5%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.accordion__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5F8299;
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border-style: none;
+    outline: none;
+    transition: 0.5s;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.accordion__button:after {
+    content: '\25BC';
+    float: right;
+    font-size: 1.5rem;
+    padding: 0px 10% 0px 5px;
+    color: white;
+}
+
+.accordion__section--image {
+    width: 100%;
+    height: auto;
+    border-radius: 50vw 50vw 0 0;
+}
+
+.accordion__panel--image {
+    display: block;
+    height: 100%;
+    max-width: 400px;
+    border-radius: 0 196px 196px 0;
+    margin-top: 20px;
+}
+
+.expanded, .accordion__button:hover {
+  background-color: rgb(40, 49, 102);
+  cursor: pointer;
+}
+
+.expanded:after {
+    content: "\25B2";
+    font-size: 1.5rem;
+}
+
+.panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
