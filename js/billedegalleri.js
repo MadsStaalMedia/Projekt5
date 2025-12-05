@@ -23,6 +23,8 @@ prikker[0]. classList.toggle("active");
 
 // Pile 
 function gaFrem() {
+    slides[billedenummer].style.display = "none";
+    prikker[billedenummer].classList.toggle("active");
     if (billedenummer < slides.length) {
         billedenummer++;   //gå et frem 
     } else {
@@ -32,12 +34,20 @@ function gaFrem() {
 }
 
 function gaTilbage() {
+    slides[billedenummer].style.display = "none";
+    prikker[billedenummer].classList.toggle("active");
     if (billedenummer > 0) {
         billedenummer--;     //gå et tilbage 
     } else {
         billedenummer = slides.length - 1; //hvis vi er ved første - gå til sidste 
 }
 skiftbillede(billedenummer);
+}
+
+function skiftbillede(x) {
+    slides[x].style.display = "block";
+    prikker[x].classList.toggle("active");
+
 }
 
 
