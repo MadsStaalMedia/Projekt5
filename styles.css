@@ -473,7 +473,7 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: var(--aqua-color);
-    color: white;
+    color: var(--white);
     cursor: pointer;
     padding: 30px;
     width: 90vw;
@@ -491,7 +491,7 @@ p {
     float: right;
     font-size: 1.5rem;
     padding: 0px 10% 0px 5px;
-    color: white;
+    color: var(--white);
 }
 
 .accordion__section--image {
@@ -525,5 +525,8 @@ p {
 
   a {
     color: var(--terra-color);
+    font-family: Aeonik, Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
