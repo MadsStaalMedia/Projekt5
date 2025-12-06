@@ -692,8 +692,23 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-    .hero {
-        width: 100%;
-        height: auto;
+    .hero#index {
+        background: lightgray url(img/hero/hero_index.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#ophold {
+        background: lightgray url(img/hero/hero_ophold.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#faciliteter {
+        background: lightgray url(img/hero/hero_faciliteter.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#oplevelser {
+        background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#eventsal {
+        background: lightgray url(img/hero/hero_eventsal.webp) center / 100% auto no-repeat;
     }
 }
