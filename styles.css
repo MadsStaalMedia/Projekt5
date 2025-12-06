@@ -704,11 +704,11 @@ p {
     }
 
     h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .hero#index {
@@ -749,5 +749,13 @@ p {
 
     .textBox__text {
         top: 80px;
+    }
+
+    #tentButtons {
+        width: 50vw;
+    }
+
+    .tentScroll {
+        justify-content: flex-start;
     }
 }
