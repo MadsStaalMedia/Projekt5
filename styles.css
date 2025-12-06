@@ -692,5 +692,8 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .hero {
+        width: 100%;
+        height: auto;
+    }
 }
