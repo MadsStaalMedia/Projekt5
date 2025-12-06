@@ -3,21 +3,6 @@
 // tilpasset med hjælp fra chatGPT se bilag: "Mikkel hjælp chatGPT overlay menu"
 const header = document.getElementById("header");
 
-header.innerHTML = `
-<div class="top__bar">
-    <div class="header__button" id="burgerKnap">
-        <span class="burger__symbol">☰</span>
-    </div>
-
-    <div id="myNav" class="overlay">
-        <span class="closebtn" id="krydsKnap">&times;</span>
-        <div id="menuContainer" class="overlay-content"></div>
-    </div>
-
-    <div class="header__logo">LOGO</div>
-</div>
-`;
-
 // Variabler og typer
 const overlay = document.getElementById("myNav");
 const menuContainer = document.getElementById("menuContainer");
@@ -35,22 +20,22 @@ const menuPunkter = [
   { href: "#", title: "Book" }
 ];
 
-// Loop til at vise menu-punkterne (DOM-manipulation)
+// Loop til menu-punkterne
 for (let i = 0; i < menuPunkter.length; i++) {
   const punkt = menuPunkter[i];
 
 // menu aktivering 
-  let aktivKlasse = "";
+  let link__valgt = "";
   if (window.location.pathname.indexOf(punkt.href) !== -1) {
-    aktivKlasse = " dropdown__link--valgt";
+    link__valgt = " dropdown__link--valgt";
   }
   
   menuContainer.innerHTML +=
-    "<a href='" + punkt.href + "' class='dropdown__link" + aktivKlasse + "'>" + punkt.title + "</a>";
+    "<a href='" + punkt.href + "' class='dropdown__link" + link__valgt + "'>" + punkt.title + "</a>";
 }
 
 
-// Funktion med if/else (kontrolstruktur)
+// Funktion med if/else for overlay menu 
 function visMenu(vis) {
   if (vis) {
     overlay.style.height = "100%";       // åbner overlay
@@ -61,7 +46,7 @@ function visMenu(vis) {
   }
 }
 
-// Event listeners (JS → HTML)
+// Event listeners funktion reaktion 
 knapOpn.addEventListener("click", function() {
   visMenu(true);
 });

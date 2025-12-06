@@ -25,8 +25,8 @@ header {
     margin: 0;
     padding: 0;
     z-index: 10;
-     position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+     position: fixed; 
+  top: 0; 
   
 
     
@@ -38,8 +38,7 @@ header {
     right: 5%;
     font-weight: 0;
 }
-.top__bar {
-  background-color: var(--background1); /* baggrundsfarve på topbaren*/
+.top__bar { 
   display: flex; /* indikere at der bruges flex-koder*/
   justify-content: space-between; /* indikere at de to ikoner skal deles op */
   align-items: center; /* indikere at ikonerne skal være på samme linje */
@@ -116,11 +115,11 @@ header {
 /* overlay til burgermenu slutter  */
 
 .eventsal-side header {
-    background-color: var(--caulum-block-color);
+    background-color: var(--caelum-color);
 }
 
 .eventsal-side .overlay {
-    background-color: var(--caelum-color);
+    background-color: var(--caelum-color)
 
 }
 
