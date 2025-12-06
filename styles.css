@@ -17,31 +17,127 @@ body {
 }
 
 header {
-    position: sticky;
+    
     box-sizing: border-box;
     background-color: var(--header-color);
     height: 68px;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+     position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  
 
-    .header__button {
-        margin-top: 22px;
-        position: absolute;
-        right: 5%;
-    }
+    
 
-    .header__logo {
-        margin-top: 22px;
-        left: 5%;
-        position: absolute;
-    }
+
+.header__button {
+    margin-top: 22px;
+    position: absolute;
+    right: 5%;
+    font-weight: 0;
+}
+.top__bar {
+  background-color: var(--background1); /* baggrundsfarve på topbaren*/
+  display: flex; /* indikere at der bruges flex-koder*/
+  justify-content: space-between; /* indikere at de to ikoner skal deles op */
+  align-items: center; /* indikere at ikonerne skal være på samme linje */
+  padding: 20px; /* giver luft foroven og for neden i topbaren */
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+.header__logo {
+    margin-top: 22px;
+    left: 5%;
+    position: absolute;
+}
+
+.burger__symbol {
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 100;
+}
+}
+
+/* overlay til burgermenu starter */
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: var(--header-color);
+  overflow-y: auto;
+  transition: height 0.5s ease;
 
 }
 
+.overlay-content a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  font-family: Aeonik, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--white);
+  text-align: left;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+
+}
+
+/* dropdown farve-navigation definering starter*/
+.overlay-content a.dropdown__link--valgt {
+  color: var(--terra-color);
+  font-weight: 700;
+}
+
+.overlay-content a.dropdown__link:hover {
+  color: var(--terra-color);
+  
+}
+/* dropdown navigation definering slutter*/
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 35px;
+  font-weight: 100;
+  cursor: pointer;
+  color: var(--white);
+  right: 5%;
+
+}
+/* overlay til burgermenu slutter  */
+
+.eventsal-side header {
+    background-color: var(--caulum-block-color);
+}
+
+.eventsal-side .overlay {
+    background-color: var(--caelum-color);
+
+}
+
+.eventsal-side .overlay-content a.dropdown__link--valgt {
+  color: var(--header-color);
+}
+
+.eventsal-side .overlay-content a.dropdown__link:hover {
+  color: var(--header-color);
+  
+}
+
+
+
 footer {
     box-sizing: border-box;
-    background-color: var(--silva-color);
+    background-color: var(--caulum-block-color);
     padding: 24px 0;
 
     button {
@@ -100,6 +196,7 @@ footer {
 main {
     background-color: var(--background-color);
     margin: 0;
+    margin-top: 68px;
 }
 
 h1 {
@@ -196,6 +293,7 @@ p {
     position: relative;
     width: 100%;
     height: 664px;
+    overflow: hidden;
 
     button {
         position: absolute;
