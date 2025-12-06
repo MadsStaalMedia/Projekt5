@@ -368,8 +368,8 @@ p {
 .textBox__text {
     position: absolute;
     top: 58px;
-    margin-left: 74px;
-    margin-right: 74px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .tentDiv {
@@ -378,6 +378,7 @@ p {
     width: 100%;
     border-radius: 50vw 50vw 0px 0px;
     overflow: hidden;
+
 }
 
 .tentDiv__img {
@@ -716,5 +717,9 @@ p {
     .desktopGrid {
         display: flex;
         flex-direction: row;
+    }
+
+    .textBox__text {
+        top: 80px;
     }
 }
