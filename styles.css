@@ -801,24 +801,47 @@ p {
         grid-template-areas: 
         'h2 map'
         'text map'
-        'accordion accordion';
+        'tourism1 food1'
+        'tourism2 food2';
     
         h2 {
+            width: 50%;
             grid-area: h2;
         }
 
         p {
+            width: 50%;
             grid-area: text;
         }
 
-        .accordion__section {
-            grid-area: accordion;
+        #tourism1 {
+            grid-area: tourism1;
+        }
+
+        #food1 {
+            grid-area: food1;
+        }
+
+        #tourism2 {
+            grid-area: tourism2;
+        }
+
+        #food2 {
+            grid-area: food2;
         }
 
         .accordion__section#map {
             grid-area: map;
         }
 
+    }
+
+    .accordion__section {
+        width: 40%;
+    }
+
+    .accordion__section#map {
+        width: 100%;
     }
     
 }
