@@ -137,7 +137,7 @@ header {
 
 footer {
     box-sizing: border-box;
-    background-color: var(--caulum-block-color);
+    background-color: var(--silva-color);
     padding: 24px 0;
 
     button {
