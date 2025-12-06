@@ -799,22 +799,17 @@ p {
     .desktopGrid_oplevelser {
         display: grid;
         grid-template-areas: 
-        'h2 map'
         'text map'
+        'text mapPanel'
         'accordion accordion';
-    
-        h2 {
-            box-sizing: border-box;
-            width: 50vw;
-            grid-area: h2;
-        }
 
-        p {
-            box-sizing: border-box;
-            width: 50vw;
-            grid-area: text;
-        }
+    }
 
+    .textArea {
+        grid-area: text;
+        width: 40vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     #accordion {
@@ -823,10 +818,14 @@ p {
         grid-template-areas: 
         'tourism food'
         'tourismPanel foodPanel';
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .accordion__section {
         width: 40vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .accordion__section#tourism {
@@ -839,20 +838,27 @@ p {
 
     .panel {
         width: 40vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
-    .panel#tourism {
+    .panel#tourismPanel {
         grid-area: tourismPanel;
     }
 
-    .panel#food {
+    .panel#foodPanel {
         grid-area: foodPanel;
     }
 
     .accordion__section#map {
         grid-area: map;
         width: 40vw;
-        margin: 0;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .panel#mapPanel {
+        grid-area: mapPanel;
     }
     
 }
