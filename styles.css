@@ -755,6 +755,11 @@ p {
         width: 50vw;
     }
 
+    .tentDiv {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
     .tentScroll {
         justify-content: flex-start;
     }
