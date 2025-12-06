@@ -214,7 +214,8 @@ h2 {
     font-size: 2rem;
     font-weight: 700;
     color: var(--h2-color);
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
 }
 
 h3 {
@@ -610,3 +611,82 @@ p {
     .pil#hojre_pil {
       right: 5px;
     }
+
+/*Accordion (Oplevelser & Faciliteter) - Svend*/
+#accordion {
+    margin: 20px 5%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.accordion__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--aqua-color);
+    color: var(--white);
+    cursor: pointer;
+    padding: 30px;
+    width: 90vw;
+    border-style: none;
+    outline: none;
+    transition: 0.5s;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.accordion__button:after {
+    content: '\25BC';
+    float: right;
+    font-size: 1.5rem;
+    padding: 0px 10% 0px 5px;
+    color: var(--white);
+}
+
+.accordion__section {
+    border-radius: 50vw 50vw 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.accordion__section--image {
+    width: auto;
+    height: auto;
+}
+
+.accordion__panel--image {
+    display: block;
+    height: auto;
+    width: 90%;
+    border-radius: 0 196px 196px 0;
+    margin-top: 20px;
+}
+
+.expanded, .accordion__button:hover {
+  background-color: var(--h2-color);
+  cursor: pointer;
+}
+
+.expanded:after {
+    content: "\25B2";
+    font-size: 1.5rem;
+}
+
+.panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+
+  a {
+    color: var(--terra-color);
+    font-family: Aeonik, Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
