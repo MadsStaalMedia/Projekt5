@@ -876,6 +876,10 @@ p {
     .panel#mapPanel {
         grid-area: mapPanel;
     }
+
+    .contactDiv {
+        width: 50vw;
+    }
     
     .contactDiv#rightDesktop {
         display: flex;
