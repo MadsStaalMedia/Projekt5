@@ -746,6 +746,7 @@ p {
     .desktopGrid {
         display: flex;
         flex-direction: row;
+        width: 100vw;
     }
 
     .textBox {
@@ -893,5 +894,4 @@ p {
     .contactDiv#left {
         display: none;
     }
-
 }
