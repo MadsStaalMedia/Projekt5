@@ -763,11 +763,12 @@ p {
     }
 
     .tentDiv__img {
-        height: 500px;
+        height: 800px;
         width: 100%;
     }
 
     .tentDiv__info {
+        padding-top: 10%;
         border-radius: 45vw 45vw 0 0;
     }
 
