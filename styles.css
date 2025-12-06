@@ -840,8 +840,17 @@ p {
         width: 38vw;
         margin-left: 5vw;
         margin-right: 5vw;
-        padding: 1vw;
         background-color: var(--background-color);
+
+        p {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        h2 {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     }
 
     .panel#tourismPanel {
