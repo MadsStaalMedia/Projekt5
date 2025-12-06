@@ -801,7 +801,6 @@ p {
         grid-template-areas: 
         'h2 map'
         'text map'
-        'accordion accordion'
         'accordion accordion';
     
         h2 {
@@ -820,25 +819,40 @@ p {
 
     #accordion {
         grid-area: accordion;
-        flex-direction: column;
+        display: grid;
+        grid-template-areas: 
+        'tourism food'
+        'tourismPanel foodPanel';
     }
 
     .accordion__section {
         width: 40vw;
     }
 
+    .accordion__section#tourism {
+        grid-area: tourism;
+    }
+
+    .accordion__section#food {
+        grid-area: food;
+    }
+
     .panel {
         width: 40vw;
+    }
+
+    .panel#tourism {
+        grid-area: tourismPanel;
+    }
+
+    .panel#food {
+        grid-area: foodPanel;
     }
 
     .accordion__section#map {
         grid-area: map;
         width: 40vw;
         margin: 0;
-    }
-
-    .panel#tourism2 {
-        
     }
     
 }
