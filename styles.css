@@ -774,4 +774,19 @@ p {
     .tentScroll {
         justify-content: flex-start;
     }
+
+    .tentDiv__facilities {
+        width: 50%;
+        grid-template-areas: 
+        'text'
+        '1fr'
+        '1fr'
+        '1fr'
+        '1fr'
+        '1fr'
+        '1fr'
+        '1fr';
+        justify-content: left;
+    }
+    
 }
