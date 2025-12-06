@@ -719,6 +719,17 @@ p {
         flex-direction: row;
     }
 
+    .textBox {
+
+        background: lightgray url(img/div/index_div_background.webp) center / 100% auto no-repeat;
+
+        button {
+        position: absolute;
+        left: calc(50% - 73px);
+        bottom: 100px;
+        }
+    }
+
     .textBox__text {
         top: 80px;
     }
