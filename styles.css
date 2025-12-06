@@ -837,9 +837,17 @@ p {
     }
 
     .panel {
-        width: 40vw;
+        width: 38vw;
         margin-left: 5vw;
         margin-right: 5vw;
+        background-color: var(--aqua-color);
+        padding: 1vw;
+
+        div {
+            background-color: var(--white);
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
     }
 
     .panel#tourismPanel {
