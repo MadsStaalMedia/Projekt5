@@ -657,6 +657,12 @@ p {
     overflow: hidden;
 }
 
+.accordion__section#map {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .accordion__section--image {
     width: auto;
     height: auto;
@@ -788,6 +794,31 @@ p {
         '1fr'
         '1fr';
         justify-content: left;
+    }
+
+    .desktopGrid_oplevelser {
+        display: grid;
+        grid-template-areas: 
+        'h2 map'
+        'text map'
+        'accordion accordion';
+    
+        h2 {
+            grid-area: h2;
+        }
+
+        p {
+            grid-area: text;
+        }
+
+        .accordion__section {
+            grid-area: accordion;
+        }
+
+        .accordion__section#map {
+            grid-area: map;
+        }
+
     }
     
 }
