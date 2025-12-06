@@ -384,6 +384,7 @@ p {
 .tentDiv__img {
     height: 66vw;
     width: 100%;
+    overflow: hidden;
 
     img {
         width: 100%;
@@ -758,6 +759,16 @@ p {
     .tentDiv {
         width: 90vw;
         margin-left: 5vw;
+        border-radius: 45vw 45vw 0 0;
+    }
+
+    .tentDiv__img {
+        height: 500px;
+        width: 100%;
+    }
+
+    .tentDiv__info {
+        border-radius: 45vw 45vw 0 0;
     }
 
     .tentScroll {
