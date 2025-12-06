@@ -894,4 +894,8 @@ p {
     .contactDiv#left {
         display: none;
     }
+
+    .contact {
+        width: 50vw;
+    }
 }
