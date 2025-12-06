@@ -801,47 +801,44 @@ p {
         grid-template-areas: 
         'h2 map'
         'text map'
-        'tourism1 food1'
-        'tourism2 food2';
+        'accordion accordion'
+        'accordion accordion';
     
         h2 {
-            width: 50%;
+            box-sizing: border-box;
+            width: 50vw;
             grid-area: h2;
         }
 
         p {
-            width: 50%;
+            box-sizing: border-box;
+            width: 50vw;
             grid-area: text;
         }
 
-        #tourism1 {
-            grid-area: tourism1;
-        }
+    }
 
-        #food1 {
-            grid-area: food1;
-        }
-
-        #tourism2 {
-            grid-area: tourism2;
-        }
-
-        #food2 {
-            grid-area: food2;
-        }
-
-        .accordion__section#map {
-            grid-area: map;
-        }
-
+    #accordion {
+        grid-area: accordion;
+        flex-direction: column;
     }
 
     .accordion__section {
-        width: 40%;
+        width: 40vw;
+    }
+
+    .panel {
+        width: 40vw;
     }
 
     .accordion__section#map {
-        width: 100%;
+        grid-area: map;
+        width: 40vw;
+        margin: 0;
+    }
+
+    .panel#tourism2 {
+        
     }
     
 }
