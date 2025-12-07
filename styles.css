@@ -25,19 +25,20 @@ header {
     margin: 0;
     padding: 0;
     z-index: 10;
-     position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
   
-
-    
-
-
 .header__button {
     margin-top: 22px;
     position: absolute;
     right: 5%;
     font-weight: 0;
 }
+
+.header_caelum {
+    background-color: var(--caelum-color);
+}
+
 .top__bar {
   background-color: var(--background1); /* baggrundsfarve på topbaren*/
   display: flex; /* indikere at der bruges flex-koder*/
@@ -114,26 +115,6 @@ header {
 
 }
 /* overlay til burgermenu slutter  */
-
-.eventsal-side header {
-    background-color: var(--caulum-block-color);
-}
-
-.eventsal-side .overlay {
-    background-color: var(--caelum-color);
-
-}
-
-.eventsal-side .overlay-content a.dropdown__link--valgt {
-  color: var(--header-color);
-}
-
-.eventsal-side .overlay-content a.dropdown__link:hover {
-  color: var(--header-color);
-  
-}
-
-
 
 footer {
     box-sizing: border-box;
