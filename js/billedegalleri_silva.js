@@ -4,12 +4,12 @@ let prikviser = document.getElementById("carousel_prikkerSilva");
 let billedeviser = document.getElementById("carousel_billedeSilva");
 
 for (let i = 0; i < billeder.length; i++) {
-     prikviser.innerHTML += "<div class='carousel_prik'></div>";
-    billedeviser.innerHTML += "<img class='carousel_billede fade' src="+billeder[i]+">";
+     prikviser.innerHTML += "<div class='carousel_prikSilva'></div>";
+    billedeviser.innerHTML += "<img class='carousel_billedeSilva fade' src="+billeder[i]+">";
 }
 
-const slides = document.getElementsByClassName("carousel_billede");
-const prikker = document.getElementsByClassName("carousel_prik");
+const slides = document.getElementsByClassName("carousel_billedeSilva");
+const prikker = document.getElementsByClassName("carousel_prikSilva");
 
 //Start: vist første billede og gør første prik aktiv
 
@@ -22,7 +22,7 @@ slides[0].style.display = "block";
 prikker[0]. classList.toggle("active");
 
 // Pile 
-function gaFrem() {
+function gaFremSilva() {
     slides[billedenummer].style.display = "none";
     prikker[billedenummer].classList.toggle("active");
     if (billedenummer < slides.length -1) {
@@ -33,7 +33,7 @@ function gaFrem() {
     skiftbillede(billedenummer);
 }
 
-function gaTilbage() {
+function gaTilbageSilva() {
     slides[billedenummer].style.display = "none";
     prikker[billedenummer].classList.toggle("active");
     if (billedenummer > 0) {
