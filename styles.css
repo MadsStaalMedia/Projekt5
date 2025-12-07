@@ -813,6 +813,10 @@ p {
     margin-right: 5%;
 }
 
+.accordion__section#facility {
+    border-radius: 0;
+}
+
 .accordion__section--image {
     width: auto;
     height: auto;
@@ -848,6 +852,10 @@ p {
     margin-left: 5%;
     margin-right: 5%;
   }
+}
+
+.panel#facility {
+    background-color: var(--background-color);
 }
 
 @media only screen and (min-width: 768px) {
