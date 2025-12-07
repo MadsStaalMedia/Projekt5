@@ -508,6 +508,26 @@ p {
     }
 }
 
+.facilityList__display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.facilityList__img {
+    width: 20vw;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 303px 303px 0 0;
+
+    img {
+        width: auto;
+        height: 100%;
+    }
+}
+
 .contactDiv {
     box-sizing: border-box;
     display: flex;
