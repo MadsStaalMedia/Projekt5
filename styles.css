@@ -325,6 +325,10 @@ p {
     background: lightgray url(img/hero/hero_eventsal.webp) center / 1024px 686px no-repeat;
 }
 
+.hero#kontakt {
+    background: lightgray url(img/hero/hero_kontakt.webp) center / 1024px 686px no-repeat;
+}
+
 .hero__textbox {
     position: absolute;
     box-sizing: border-box;
@@ -764,6 +768,10 @@ p {
 
     .hero#eventsal {
         background: lightgray url(img/hero/hero_eventsal.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#kontakt {
+        background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
     }
 
     .desktopGrid {
