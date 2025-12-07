@@ -378,6 +378,14 @@ p {
     display: none;
 }
 
+.textBox#desktopImg2 {
+    display: none;
+}
+
+.textBox#desktopImg3 {
+    display: none;
+}
+
 .textBox__text {
     position: absolute;
     top: 58px;
@@ -466,6 +474,10 @@ p {
 
 .tentDiv#caelum {
     background-color: var(--caelum-color);
+}
+
+.tentDiv#facility {
+    background-color: var(--silva-color);
 }
 
 .tentIcon {
@@ -1040,6 +1052,10 @@ p {
         justify-content: left;
     }
 
+    .tentDiv#facility {
+        width: 45vw;
+    }
+
     .desktopGrid_oplevelser {
         display: grid;
         grid-template-areas: 
@@ -1153,7 +1169,25 @@ p {
     }
 
     .textBox#desktopImg {
+        width: 45vw;
         display: block;
         background: lightgray url(img/div/index_div_background.webp) center / 1024px 686px no-repeat;
+        
+    }
+
+    .textBox#desktopImg2 {
+        width: 45vw;
+        border-radius: 0;
+        display: block;
+        background: lightgray url(img/div/ophold_silva_background.webp) center / 1024px 686px no-repeat;
+        
+    }
+
+    .textBox#desktopImg3 {
+        width: 45vw;
+        border-radius: 0;
+        display: block;
+        background: lightgray url(img/div/ophold_aqua_background.webp) center / 1024px 686px no-repeat;
+         
     }
 }
