@@ -641,7 +641,7 @@ p {
     transition: background-color 0.6s ease;
 }
 
-#carousel_billedeSilva {
+#carousel_billedeTerra {
     width: 100%;
     align-self: center;
     height: auto;
@@ -649,14 +649,14 @@ p {
     position: relative;
 }
 
-.carousel_billedeSilva {
+.carousel_billedeTerra {
     display: none;
     width: 100%;
     height: auto;
     margin: auto;
 }
 
-#carousel_prikkerSilva {
+#carousel_prikkerTerra {
     margin: 10px 0px 10px 0px;
     display: flex;
     box-sizing: border-box;
@@ -666,7 +666,7 @@ p {
     
 }
 
-.carousel_prikSilva {
+.carousel_prikTerra {
     cursor: pointer;
     background-color: #a9a9a9;
     height: 10px;
@@ -676,29 +676,68 @@ p {
     transition: background-color 0.6s ease;
 }
 
-.active, .carousel_prikSilva:hover {
+.active, .carousel_prikTerra:hover {
     background-color:#5b5b5b;
 }
 
- .pil {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      color: white;
-      border: none;
-      font-size: 30px;
-      padding: 8px 0px;
-      cursor: pointer;
-      z-index: 10;
-    }
+#carousel_billedeTerra {
+    width: 100%;
+    align-self: center;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
 
-    .pil#venstre_pil {
-      left: 5px;
-    }
+.carousel_billedeTerra {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
 
-    .pil#hojre_pil {
-      right: 5px;
-    }
+#carousel_prikkerTerra {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.carousel_prikTerra {
+    cursor: pointer;
+    background-color: #a9a9a9;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 2px;
+    transition: background-color 0.6s ease;
+}
+
+.active, .carousel_prikTerra:hover {
+    background-color:#5b5b5b;
+}
+
+.pil {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 8px 0px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.pil#venstre_pil {
+    left: 5px;
+}
+
+.pil#hojre_pil {
+    right: 5px;
+}
 
 /*Accordion (Oplevelser & Faciliteter) - Svend*/
 #accordion {
