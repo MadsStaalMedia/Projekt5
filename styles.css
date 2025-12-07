@@ -899,4 +899,14 @@ p {
     .contact {
         width: 50vw;
     }
+
+    .priceList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        hr {
+            display: none;
+        }
+    }
 }
