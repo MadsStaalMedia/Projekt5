@@ -112,6 +112,10 @@ header {
 }
 /* overlay til burgermenu slutter  */
 
+.eventsal-side h2 {
+    color: var(--caelum-color);
+}
+
 .eventsal-side header {
     background-color: var(--caelum-color);
 }
@@ -495,7 +499,7 @@ p {
     margin: 20px 5% 85px;
     border-radius: 50vw 50vw 0px 0px;
     padding-bottom: 20px;
-    background-color: var(--background-color);
+    background-color: var(--white);
     overflow: hidden;
 
     h1 {
