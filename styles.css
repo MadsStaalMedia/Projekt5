@@ -224,6 +224,16 @@ h2 {
     margin-right: 5vw;
 }
 
+.h1Secondary {
+    font-family: Didot, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--white);
+    text-align: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 h3 {
     font-family: Aeonik, Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
