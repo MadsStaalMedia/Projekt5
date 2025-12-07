@@ -824,12 +824,12 @@ p {
 
     .textBox {
 
-        background: lightgray url(img/div/index_div_background.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/div/index_div_background.webp) center / auto 100% no-repeat;
 
         button {
         position: absolute;
         left: calc(50% - 73px);
-        bottom: 100px;
+        bottom: 90px;
         }
     }
 
