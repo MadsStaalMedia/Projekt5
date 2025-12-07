@@ -749,7 +749,8 @@ p {
     background-color:#5b5b5b;
 }
 
-.pil {
+.venstre_pil {
+    left: 5px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -761,12 +762,17 @@ p {
     z-index: 10;
 }
 
-.pil#venstre_pil {
-    left: 5px;
-}
-
-.pil#hojre_pil {
+.hojre_pil {
     right: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 8px 0px;
+    cursor: pointer;
+    z-index: 10;
 }
 
 /*Accordion (Oplevelser & Faciliteter) - Svend*/
