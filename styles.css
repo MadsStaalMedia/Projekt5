@@ -787,9 +787,10 @@ p {
     }
 
     footer {
-        display: none;
+        display: grid;
         grid-template-areas: 
-        '';
+        'kontakt nav nyhed'
+        'info info some';
     }
 
     .hero#index {
