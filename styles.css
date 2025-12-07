@@ -27,7 +27,11 @@ header {
     z-index: 10;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-  
+
+    .header__desktopNav {
+        display: none;
+    }
+
 .header__button {
     margin-top: 22px;
     position: absolute;
@@ -748,6 +752,12 @@ p {
 
     p {
         font-size: 1.2rem;
+    }
+
+    header {
+        .header__button {
+            display: none;
+        }
     }
 
     .hero#index {
