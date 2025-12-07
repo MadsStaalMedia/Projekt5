@@ -486,7 +486,7 @@ p {
     background-color: var(--caelum-color);
 }
 
-.tentDiv#facility {
+.tentDiv#facilities {
     background-color: var(--silva-color);
 }
 
@@ -542,7 +542,7 @@ p {
     }
 }
 
-.facilityList#facility {
+.facilityList#facilityList {
     background-color: var(--background-color);
 }
 
@@ -784,6 +784,27 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    .accordion__section {
+
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+
+        .accordion__button {
+        width: 100%;
+        height: 70px;
+        padding: 35px 0 25px 5%;
+        background-color: var(--background-color);
+        border-top: 5px solid var(--header-color);
+        color: var(--black);
+        font-family: Aeonik, Arial, Helvetica, sans-serif;
+        }
+
+        .accordion__button:after {
+        color: var(--black);
+        }
+    }
 }
 
 .accordion__button {
@@ -805,26 +826,12 @@ p {
     line-height: 150%;
 }
 
-.accordion__button#facility {
-    width: 100%;
-    height: 70px;
-    padding: 35px 0 25px 5%;
-    background-color: var(--background-color);
-    border-top: 5px solid var(--header-color);
-    color: var(--black);
-    font-family: Aeonik, Arial, Helvetica, sans-serif;
-}
-
 .accordion__button:after {
     content: '\25BC';
     float: right;
     font-size: 1.5rem;
     padding: 0px 10% 0px 5px;
     color: var(--white);
-}
-
-.accordion__button#facility:after {
-    color: var(--black);
 }
 
 .accordion__section {
@@ -837,12 +844,6 @@ p {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.accordion__section#facility {
-    border-radius: 0;
-    width: 100%;
-    margin: 0;
 }
 
 .accordion__section--image {
