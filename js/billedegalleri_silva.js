@@ -1,52 +1,52 @@
-const billeder = ["img/silva/silva_1.webp","img/silva/silva_2.webp","img/silva/silva_3.webp"];
+const billederSilva = ["img/silva/silva_1.webp","img/silva/silva_2.webp","img/silva/silva_3.webp"];
 
-let prikviser = document.getElementById("carousel_prikkerSilva");
-let billedeviser = document.getElementById("carousel_billedeSilva");
+let prikviserSilva = document.getElementById("carousel_prikkerSilva");
+let billedeviserSilva = document.getElementById("carousel_billedeSilva");
 
 for (let i = 0; i < billeder.length; i++) {
-     prikviser.innerHTML += "<div class='carousel_prikSilva'></div>";
-    billedeviser.innerHTML += "<img class='carousel_billedeSilva fade' src="+billeder[i]+">";
+    prikviserSilva.innerHTML += "<div class='carousel_prikSilva'></div>";
+    billedeviserSilva.innerHTML += "<img class='carousel_billedeSilva fade' src="+billederSilva[i]+">";
 }
 
-const slides = document.getElementsByClassName("carousel_billedeSilva");
-const prikker = document.getElementsByClassName("carousel_prikSilva");
+const slidesSilva = document.getElementsByClassName("carousel_billedeSilva");
+const prikkerSilva = document.getElementsByClassName("carousel_prikSilva");
 
 //Start: vist første billede og gør første prik aktiv
 
-let billedenummer = 0;
+let billedenummerSilva = 0;
 
-for(let i= 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+for(let i= 0; i < slidesSilva.length; i++) {
+    slidesSilva[i].style.display = "none";
 }
-slides[0].style.display = "block";
-prikker[0]. classList.toggle("active");
+slidesSilva[0].style.display = "block";
+prikkerSilva[0]. classList.toggle("active");
 
 // Pile 
 function gaFremSilva() {
-    slides[billedenummer].style.display = "none";
-    prikker[billedenummer].classList.toggle("active");
-    if (billedenummer < slides.length -1) {
-        billedenummer++;   //gå et frem 
+    slidesSilva[billedenummerSilva].style.display = "none";
+    prikkerSilva[billedenummerSilva].classList.toggle("active");
+    if (billedenummerSilva < slidesSilva.length -1) {
+        billedenummerSilva++;   //gå et frem 
     } else {
-        billedenummer = 0; // hvis vi er ved sidste - start forfra
+        billedenummerSilva = 0; // hvis vi er ved sidste - start forfra
     }
-    skiftbillede(billedenummer);
+    skiftbilledeSilva(billedenummerSilva);
 }
 
 function gaTilbageSilva() {
-    slides[billedenummer].style.display = "none";
-    prikker[billedenummer].classList.toggle("active");
-    if (billedenummer > 0) {
-        billedenummer--;     //gå et tilbage 
+    slidesSilva[billedenummerSilva].style.display = "none";
+    prikkerSilva[billedenummerSilva].classList.toggle("active");
+    if (billedenummerSilva > 0) {
+        billedenummerSilva--;     //gå et tilbage 
     } else {
-        billedenummer = slides.length - 1; //hvis vi er ved første - gå til sidste 
+        billedenummerSilva = slidesSilva.length - 1; //hvis vi er ved første - gå til sidste 
 }
-skiftbillede(billedenummer);
+skiftbilledeSilva(billedenummerSilva);
 }
 
-function skiftbillede(x) {
-    slides[x].style.display = "block";
-    prikker[x].classList.toggle("active");
+function skiftbilledeSilva(x) {
+    slidesSilva[x].style.display = "block";
+    prikkerSilva[x].classList.toggle("active");
 
 }
 
