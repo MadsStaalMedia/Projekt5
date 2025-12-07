@@ -521,6 +521,8 @@ p {
     height: 140px;
     overflow: hidden;
     border-radius: 303px 303px 0 0;
+    display: flex;
+    justify-content: center;
 
     img {
         width: auto;
@@ -928,5 +930,9 @@ p {
         hr {
             display: none;
         }
+    }
+
+    .facilityList__img {
+        height: 400px;
     }
 }
