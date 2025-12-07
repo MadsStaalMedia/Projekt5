@@ -35,10 +35,6 @@ header {
     font-weight: 0;
 }
 
-.header_caelum {
-    background-color: var(--caelum-color);
-}
-
 .top__bar {
   background-color: var(--background1); /* baggrundsfarve på topbaren*/
   display: flex; /* indikere at der bruges flex-koder*/
@@ -115,6 +111,26 @@ header {
 
 }
 /* overlay til burgermenu slutter  */
+
+.eventsal-side header {
+    background-color: var(--caelum-color);
+}
+
+.eventsal-side .overlay {
+    background-color: var(--caelum-color);
+
+}
+
+.eventsal-side .overlay-content a.dropdown__link--valgt {
+  color: var(--header-color);
+}
+
+.eventsal-side .overlay-content a.dropdown__link:hover {
+  color: var(--header-color);
+  
+}
+
+
 
 footer {
     box-sizing: border-box;
