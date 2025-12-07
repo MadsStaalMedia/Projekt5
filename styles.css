@@ -198,10 +198,6 @@ footer {
     }
 }
 
-.footer_desktop {
-    display: none;
-}
-
 main {
     background-color: var(--background-color);
     margin: 0;
@@ -788,6 +784,12 @@ p {
                 margin-right: 4vw;
             }
         }
+    }
+
+    footer {
+        display: none;
+        grid-template-areas: 
+        '';
     }
 
     .hero#index {
