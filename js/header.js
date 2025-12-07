@@ -1,9 +1,8 @@
 // overlay menu fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2
 // inspiration til javascript fra tidelligere projekt i dropdown https://github.com/MadsStaalMedia/Projekt4
 // tilpasset med hjælp fra chatGPT se bilag: "Mikkel hjælp chatGPT overlay menu"
-const header = document.getElementById("header");
 
-// Variabler og typer
+const header = document.getElementById("header");
 const overlay = document.getElementById("myNav");
 const menuContainer = document.getElementById("menuContainer");
 const knapOpn = document.getElementById("burgerKnap");
@@ -24,14 +23,14 @@ const menuPunkter = [
 for (let i = 0; i < menuPunkter.length; i++) {
   const punkt = menuPunkter[i];
 
-// menu aktivering 
+    // menu aktivering 
   let link__valgt = "";
-  if (window.location.pathname.indexOf(punkt.href) !== -1) {
+  if (window.location.pathname.includes(punkt.href)) {
     link__valgt = " dropdown__link--valgt";
-  }
-  
-  menuContainer.innerHTML +=
-    "<a href='" + punkt.href + "' class='dropdown__link" + link__valgt + "'>" + punkt.title + "</a>";
+} 
+
+    menuContainer.innerHTML += "<a href='" + punkt.href + "' class='dropdown__link" + link__valgt + "'>" + punkt.title + "</a>";
+
 }
 
 
