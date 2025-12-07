@@ -671,7 +671,7 @@ p {
     transition: background-color 0.6s ease;
 }
 
-#carousel_billedeTerra {
+#carousel_billedeSilva {
     width: 100%;
     align-self: center;
     height: auto;
@@ -679,14 +679,14 @@ p {
     position: relative;
 }
 
-.carousel_billedeTerra {
+.carousel_billedeSilva {
     display: none;
     width: 100%;
     height: auto;
     margin: auto;
 }
 
-#carousel_prikkerTerra {
+#carousel_prikkerSilva {
     margin: 10px 0px 10px 0px;
     display: flex;
     box-sizing: border-box;
@@ -696,7 +696,7 @@ p {
     
 }
 
-.carousel_prikTerra {
+.carousel_prikSilva {
     cursor: pointer;
     background-color: #a9a9a9;
     height: 10px;
@@ -706,7 +706,7 @@ p {
     transition: background-color 0.6s ease;
 }
 
-.active, .carousel_prikTerra:hover {
+.active, .carousel_prikSilva:hover {
     background-color:#5b5b5b;
 }
 
