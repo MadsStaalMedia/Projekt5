@@ -374,6 +374,10 @@ p {
     }
 }
 
+.textBox#desktopImg {
+    display: none;
+}
+
 .textBox__text {
     position: absolute;
     top: 58px;
@@ -1146,5 +1150,10 @@ p {
 
     .facilityList__img {
         height: 400px;
+    }
+
+    .textBox#desktopImg {
+        display: block;
+        background: lightgray url(img/div/index_div_background.webp) center / 1024px 686px no-repeat;
     }
 }
