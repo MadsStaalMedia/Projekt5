@@ -940,6 +940,10 @@ p {
 
     .footer__news {
         grid-area: news;
+        
+        h2 {
+            color: var(--white);
+        }
     }
 
     .footer__nav {
