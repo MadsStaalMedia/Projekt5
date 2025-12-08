@@ -228,8 +228,8 @@ h2 {
     font-family: Didot, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
     font-weight: 400;
-    color: var(--white);
-    text-align: left;
+    color: var(--black);
+    text-align: center;
     margin-left: 5vw;
     margin-right: 5vw;
 }
