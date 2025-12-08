@@ -447,13 +447,14 @@ p {
 }
 
 .tentDiv__facilities {
+    width: 90%;
     display: grid;
     grid-template-areas: 
     'text text'
     '1fr 1fr'
     '1fr 1fr'
     '1fr 1fr'
-    '1fr 1fr';
+    'button button';
     padding: 0 5% 24px;
     justify-content: space-around;
 
@@ -464,9 +465,15 @@ p {
     }
 
     div {
+        display: flex;
+        flex-direction: row;
         font-family: Aeonik, Arial, Helvetica, sans-serif;
         font-size: 1rem;
         margin-bottom: 20px;
+    }
+
+    button {
+        button
     }
 }
 
