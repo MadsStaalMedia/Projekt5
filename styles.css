@@ -472,8 +472,8 @@ p {
         margin-bottom: 20px;
     }
 
-    button {
-        button
+    .facilityButton {
+        grid-area: button;
     }
 }
 
