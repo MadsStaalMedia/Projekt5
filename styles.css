@@ -749,6 +749,45 @@ p {
     background-color:#5b5b5b;
 }
 
+#carousel_billedeCaelum {
+    width: 100%;
+    align-self: center;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel_billedeCaelum {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#carousel_prikkerCaelum {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.carousel_prikCaelum {
+    cursor: pointer;
+    background-color: #a9a9a9;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 2px;
+    transition: background-color 0.6s ease;
+}
+
+.active, .carousel_prikCaelum:hover {
+    background-color:#5b5b5b;
+}
+
 .venstre_pil {
     left: 5px;
     position: absolute;
