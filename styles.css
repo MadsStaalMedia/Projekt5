@@ -939,23 +939,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 768px) {
-
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 1.2rem;
-    }
+@media only screen and (min-width: 800px) {
 
     header {
         height: 98px;
@@ -965,8 +949,8 @@ p {
         }
 
         .header__desktopNav {
-            width: 70%;
-            margin-left: 30%;
+            width: 90%;
+            margin-left: 10%;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -975,7 +959,7 @@ p {
             a {
                 color: var(--white);
                 font-family: Aeonik, Arial, Helvetica, sans-serif;
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 text-decoration: none;
             }
 
@@ -984,51 +968,11 @@ p {
             }
 
             button {
-                margin-right: 4vw;
+                margin-right: 0;
             }
         }
     }
 
-    footer {
-        display: grid;
-        grid-template-areas: 
-        'contact nav news'
-        'info info some';
-        padding-right: 5vw;
-    }
-
-    .footer__contact {
-        grid-area: contact;
-    }
-
-    .footer__news {
-        grid-area: news;
-        
-        h2 {
-            color: var(--white);
-        }
-    }
-
-    .footer__nav {
-        grid-area: nav;
-    }
-
-    .footer__info {
-        grid-area: info;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .footer__some {
-        grid-area: some;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-
-        a {
-            text-decoration: none;
-        }
-    }
 
     .hero {
         .book {
@@ -1279,6 +1223,64 @@ p {
 }
 
 @media only screen and (min-width: 1000px) {
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: 
+        'contact nav news'
+        'info info some';
+        padding-right: 5vw;
+    }
+
+    .footer__contact {
+        grid-area: contact;
+    }
+
+    .footer__news {
+        grid-area: news;
+        
+        h2 {
+            color: var(--white);
+        }
+    }
+
+    .footer__nav {
+        grid-area: nav;
+    }
+
+    .footer__info {
+        grid-area: info;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__some {
+        grid-area: some;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
     .hero#index {
         background: lightgray url(img/hero/hero_index.webp) center / 100% auto no-repeat;
     }
@@ -1302,4 +1304,38 @@ p {
     .hero#kontakt {
         background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
     }
+
+    header {
+        height: 98px;
+
+        .header__button {
+            display: none;
+        }
+
+        .header__desktopNav {
+            width: 70%;
+            margin-left: 30%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                color: var(--white);
+                font-family: Aeonik, Arial, Helvetica, sans-serif;
+                font-size: 1.5rem;
+                text-decoration: none;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+
+            button {
+                margin-right: 4vw;
+            }
+        }
+    }
+
+
 }
