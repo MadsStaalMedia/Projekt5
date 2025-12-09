@@ -377,6 +377,10 @@ p {
     border-radius: 50vw 50vw 0px 0px;
     background: lightgray url(img/div/index_div_background.webp) center / 1024px 686px no-repeat;
 
+    h2 {
+        color: var(--white);
+    }
+
     button {
         position: absolute;
         left: calc(50vw - 73px);
@@ -1224,22 +1228,6 @@ p {
 
 @media only screen and (min-width: 1000px) {
 
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 1.2rem;
-    }
-
     footer {
         display: grid;
         grid-template-areas: 
@@ -1313,22 +1301,54 @@ p {
         }
 
         .header__desktopNav {
-            width: 70%;
-            margin-left: 30%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
+            width: 85%;
+            margin-left: 15%;
 
             a {
-                color: var(--white);
-                font-family: Aeonik, Arial, Helvetica, sans-serif;
                 font-size: 1.5rem;
-                text-decoration: none;
             }
 
-            a:hover{
-                text-decoration: underline;
+            button {
+                margin-right: 0;
+            }
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 98px;
+
+        .header__button {
+            display: none;
+        }
+
+        .header__desktopNav {
+            width: 70%;
+            margin-left: 30%;
+
+            a {
+                font-size: 1.5rem;
             }
 
             button {
@@ -1336,6 +1356,4 @@ p {
             }
         }
     }
-
-
 }
