@@ -1030,33 +1030,40 @@ p {
         }
     }
 
+    .hero {
+        .book {
+            bottom: 24px;
+        }
+    }
+
     .hero#index {
-        background: lightgray url(img/hero/hero_index.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/hero/hero_index.webp) center / auto 100% no-repeat;
     }
 
     .hero#ophold {
-        background: lightgray url(img/hero/hero_ophold.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/hero/hero_ophold.webp) center / auto 100% no-repeat;
     }
 
     .hero#faciliteter {
-        background: lightgray url(img/hero/hero_faciliteter.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/hero/hero_faciliteter.webp) center / auto 100% no-repeat;
     }
 
     .hero#oplevelser {
-        background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/hero/hero_oplevelser.webp) center / auto 100% no-repeat;
     }
 
     .hero#eventsal {
-        background: lightgray url(img/hero/hero_eventsal.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/hero/hero_eventsal.webp) center / auto 100% no-repeat;
     }
 
     .hero#kontakt {
-        background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
+        background: lightgray url(img/hero/hero_oplevelser.webp) center / auto 100% no-repeat;
     }
 
     .hero__textbox {
         margin-top: 24px;
         width: 50vw;
+        min-width: 600px;
         border-radius: 0 50vw 50vw 0;
     }
 
@@ -1269,4 +1276,30 @@ p {
         background: lightgray url(img/div/ophold_terra_background.webp) center / 1024px 686px no-repeat;
     }
 
+}
+
+@media only screen and (min-width: 1000px) {
+    .hero#index {
+        background: lightgray url(img/hero/hero_index.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#ophold {
+        background: lightgray url(img/hero/hero_ophold.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#faciliteter {
+        background: lightgray url(img/hero/hero_faciliteter.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#oplevelser {
+        background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#eventsal {
+        background: lightgray url(img/hero/hero_eventsal.webp) center / 100% auto no-repeat;
+    }
+
+    .hero#kontakt {
+        background: lightgray url(img/hero/hero_oplevelser.webp) center / 100% auto no-repeat;
+    }
 }
