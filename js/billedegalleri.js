@@ -11,7 +11,7 @@ for (let i = 0; i < billeder.length; i++) {
 const slides = document.getElementsByClassName("carousel_billede");
 const prikker = document.getElementsByClassName("carousel_prik");
 
-//Start: vist første billede og gør første prik aktiv
+//Start: vist første billede og gør første prik aktiv - Inspireret af ChatGPT 
 
 let billedenummer = 0;
 
@@ -21,7 +21,7 @@ for(let i= 0; i < slides.length; i++) {
 slides[0].style.display = "block";
 prikker[0]. classList.toggle("active");
 
-// Pile 
+// Pile -Inspireret af ChatGPT
 function gaFrem() {
     slides[billedenummer].style.display = "none";
     prikker[billedenummer].classList.toggle("active");
@@ -32,7 +32,7 @@ function gaFrem() {
     }
     skiftbillede(billedenummer);
 }
-
+//Inspireret af ChatGPt
 function gaTilbage() {
     slides[billedenummer].style.display = "none";
     prikker[billedenummer].classList.toggle("active");
