@@ -48,8 +48,11 @@ header {
   padding-left: 20px; 
   padding-right: 20px; 
 }
+
 .header__logo {
-    margin-top: 22px;
+    margin-top: 28px;
+    height: 50px;
+    width: 50px;
     left: 5%;
     position: absolute;
 }
@@ -977,6 +980,10 @@ p {
         }
     }
 
+    .header__logo {
+        top: -5px;
+    }
+
 
     .hero {
         .book {
@@ -1312,7 +1319,15 @@ p {
                 margin-right: 0;
             }
         }
+
+        .header__logo {
+            margin-top: 10px;
+            height: 80px;
+            width: 80px;
+        }
     }
+
+    
 
 
 }
