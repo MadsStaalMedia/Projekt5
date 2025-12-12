@@ -3,7 +3,7 @@ const billederSilva = ["img/silva/silva_1.webp","img/silva/silva_2.webp","img/si
 let prikviserSilva = document.getElementById("carousel_prikkerSilva");
 let billedeviserSilva = document.getElementById("carousel_billedeSilva");
 
-for (let i = 0; i < billeder.length; i++) {
+for (let i = 0; i < billederSilva.length; i++) {
     prikviserSilva.innerHTML += "<div class='carousel_prikSilva'></div>";
     billedeviserSilva.innerHTML += "<img class='carousel_billedeSilva fade' src="+billederSilva[i]+">";
 }

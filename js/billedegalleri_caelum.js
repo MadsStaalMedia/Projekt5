@@ -3,7 +3,7 @@ const billederCaelum = ["img/caelum/caelum_1.webp","img/caelum/caelum_2.webp","i
 let prikviserCaelum = document.getElementById("carousel_prikkerCaelum");
 let billedeviserCaelum = document.getElementById("carousel_billedeCaelum");
 
-for (let i = 0; i < billeder.length; i++) {
+for (let i = 0; i < billederCaelum.length; i++) {
     prikviserCaelum.innerHTML += "<div class='carousel_prikCaelum'></div>";
     billedeviserCaelum.innerHTML += "<img class='carousel_billedeCaelum fade' src="+billederCaelum[i]+">";
 }

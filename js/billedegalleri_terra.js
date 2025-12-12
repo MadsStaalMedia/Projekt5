@@ -3,7 +3,7 @@ const billederTerra = ["img/terra/terra_1.webp","img/terra/terra_2.webp","img/te
 let prikviserTerra = document.getElementById("carousel_prikkerTerra");
 let billedeviserTerra = document.getElementById("carousel_billedeTerra");
 
-for (let i = 0; i < billeder.length; i++) {
+for (let i = 0; i < billederTerra.length; i++) {
     prikviserTerra.innerHTML += "<div class='carousel_prikTerra'></div>";
     billedeviserTerra.innerHTML += "<img class='carousel_billedeTerra fade' src="+billederTerra[i]+">";
 }
