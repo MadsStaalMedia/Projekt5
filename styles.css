@@ -1022,6 +1022,13 @@ p {
         border-radius: 0 50vw 50vw 0;
     }
 
+    .hero__textbox_caelum {
+        margin-top: 24px;
+        width: 50vw;
+        min-width: 600px;
+        border-radius: 0 50vw 50vw 0;
+    }
+
     .desktopGrid {
         display: flex;
         flex-direction: row;
